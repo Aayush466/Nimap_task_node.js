@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-import {createProduct , GetProductWithPagination, UpdateProduct , DeleteProduct} from '../controllers/category.controller.js'
+import {createProduct , GetProductWithPagination, UpdateProduct , DeleteProduct} from '../controllers/product.controller.js'
 const router = Router()
 
 router.route("/create-product").post(createProduct)
